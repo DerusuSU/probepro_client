@@ -1,0 +1,73 @@
+@use './variables.scss' as *;
+@use '@splidejs/vue-splide/css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: $color-background;
+}
+
+.container {
+  margin: 0 160px;
+
+  @media (max-width: 1440px) {
+    margin: 0 32px;
+  }
+
+  @media (max-width: 1024px) {
+    margin: 0 24px;
+  }
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+}
+
+h2 {
+  font-weight: 500;
+  line-height: 135%;
+  letter-spacing: -.04em;
+  color: $color-black;
+  font-size: 32px;
+
+  &.alt {
+    color: $color-white;
+  }
+
+  @media (max-width: 1440px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 24px;
+  }
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: $color-text;
+  line-height: 145%;
+  letter-spacing: -.04em;
+
+  &.alt {
+    color: $color-text-2;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 16px;
+  }
+}
+
+//.split {
+//  opacity: 0;
+//  will-change: transform;
+//}
+//
+//.split * {
+//  will-change: transform;
+//}

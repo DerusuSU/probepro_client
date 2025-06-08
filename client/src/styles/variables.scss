@@ -1,0 +1,26 @@
+// Цвета
+$color-primary: #286B82;        // Основной цвет (например, синий)
+$color-secondary: #09A2B0;      // Вторичный цвет (например, красный акцент)
+$color-text: #686F77;            // Основной текст
+$color-text-2: #85d2da;           // Побочный текст
+$color-black: #000000;            // Тёмный текст
+$color-white: #ffffff;           // Светлый фон
+$color-lines: #ffffff;           // Для линий
+$color-background: #F3F4F9;
+$color-background-opacity: rgba(243, 244, 249, 1);
+
+// Типографика
+$font-family-base: 'Inter', sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+
+// Отступы и скругления
+$spacing-unit: 1rem;
+$radius: 4px;
+$radius-inside: 2px;
+
+// Брейкпоинты
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
